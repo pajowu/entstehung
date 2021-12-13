@@ -1,0 +1,11 @@
+[Unit]
+Description=entstehung der spd
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=55min
+RandomizedDelaySec=10m
+Persistent=true
+
+[Install]
+WantedBy=multi-user.target

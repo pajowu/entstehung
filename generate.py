@@ -11,7 +11,7 @@ def get_random_noun():
 			return noun
 
 first_articles = {"n": "ein", "f": "eine", "m": "einen"}
-second_articles = {"n": "kein einziges", "f": "eine einzige", "m": "kein einziger"}
+second_articles = {"n": "kein einziges neues", "f": "eine einzige neue", "m": "kein einziger neuer"}
 def get_random_with_article(articles):
 	noun = get_random_noun()
 	return f"{articles[noun['genus']]} {noun['lemma']}"
