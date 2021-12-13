@@ -2,3 +2,4 @@ __pychache__/
 *.pyc
 config.py
 login.py
+blocklist.txt
