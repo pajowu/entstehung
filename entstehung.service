@@ -4,6 +4,6 @@ StartLimitIntervalSec=0
 
 [Service]
 Type=oneshot
-WorkingDirectory="/home/pajowu/entstehung/"
+WorkingDirectory=/home/pajowu/entstehung/
 ExecStart=/home/pajowu/entstehung/env/bin/python /home/pajowu/entstehung/bot.py
 TimeoutStartSec=5min
